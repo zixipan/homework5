@@ -241,15 +241,15 @@ header{
   }
 
   .pricing{
-    align-items: top;
+    align-items: flex-start;
   }
 
-  .gallery{
+  #gallery, .gallery{
     display: none;
   }
 
-  [id = "gallery"]{
+/*  [id = "gallery"]{
     display: none;
-  }
+  }*/
 
 }
