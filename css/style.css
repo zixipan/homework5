@@ -159,7 +159,7 @@ Keyframes for animation*/
 /* Navbar */
 header{
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: space-between;
   align-items: center; 
   background: #fff;
@@ -205,18 +205,11 @@ header{
   /* Navbar */
 
   header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
+    flex-direction: row;   
   }
 
   .nav_links{
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .nav_item a{
@@ -243,6 +236,7 @@ header{
   .pricing{
     align-items: flex-start;
   }
+
 
   #gallery, .gallery{
     display: none;
